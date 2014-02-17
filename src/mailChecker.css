@@ -1,0 +1,104 @@
+body {
+	margin:0px;
+}
+
+.mainImage {
+	left: 0px;
+	top: 0px;
+}
+
+#progressInd {
+	display:none;
+	position: absolute;
+	top: 17px;
+	left: 16px;
+	opacity: 0.4;
+}
+
+#messageCount {
+	font-size: 14pt;
+	color: white;
+	position:absolute;
+	top: 82px;
+	left:20px;
+}
+
+#plus {
+	font-size: 11pt;
+	position:absolute;
+	top: 0px;
+	left:10px;
+}
+
+.stampBack {
+	left: 0px;
+	top: 0px;
+}
+
+#prefs {
+	display: none;
+	width: 106px;
+	height: 125px;
+}
+
+#front {
+	width: 106px;
+	height: 125px;
+}
+
+.label {
+	position: absolute;
+	font: 9px "Helvetica Neue";
+	font-weight: bold;
+	color:white;
+	left: 15px;
+}
+
+#done {
+	position:absolute;
+	top: 88px;
+	left:42px;
+}
+
+#usernameLabel {
+	position: absolute;
+	top: 16px;
+}
+
+#usernameField {
+	position: absolute;
+	top: 26px;
+	left: 15px;
+	width: 76px;
+}
+
+#passwordLabel {
+	position: absolute;
+	top: 52px;
+}
+
+#passwordField {
+	position: absolute;
+	top: 62px;
+	left: 15px;
+	width: 76px;
+}
+
+.flip {
+	position: absolute;
+	top:98px;
+	left:79px;
+	width:13px;
+	height:13px;
+}
+
+#flip {
+	opacity:0.0;
+	background: url(/System/Library/WidgetResources/ibutton/white_i.png) no-repeat top left;
+}
+
+#fliprollie {
+	display:none;
+	opacity:0.25;
+	background: url(/System/Library/WidgetResources/ibutton/white_rollie.png) no-repeat top left;
+}
